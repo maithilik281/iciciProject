@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Dir1Directive } from './shared/dir1.directive';
 import { CustompipePipe } from './shared/custompipe.pipe';
+import { HeaderComponent } from './common/header/header.component';
+import { FooterComponent } from './common/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Dir1Directive,
-    CustompipePipe
+    CustompipePipe,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
