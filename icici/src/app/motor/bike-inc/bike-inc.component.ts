@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./bike-inc.component.css']
 })
 export class BikeIncComponent {
-
+  getBikeDetails(){
+    return null;
+  }
 }
